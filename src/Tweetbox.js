@@ -52,6 +52,7 @@ class Tweetbox extends Component {
   };
 
   togglePhoto(evt) {
+    console.log('Toggled photo!');
     this.setState({photoAdded: !this.state.photoAdded});
   };
 
